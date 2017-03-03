@@ -1,0 +1,18 @@
+{
+  "name": "endToEnd",
+  "version": "0.0.1",
+  "description": "End to End aplication using MEAN Stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faiçal Assad Junior",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "mongo": "~0.1.0",
+    "express": "~4.14.0",
+    "mongoose": "~4.6.1",
+    "pug": "~2.0.0-beta6",
+    "body-parser": "~1.15.2"
+  }
+}

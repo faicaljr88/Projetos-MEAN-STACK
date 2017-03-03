@@ -1,0 +1,11 @@
+extends layout 
+
+block content
+	div.container(ng-controller="AppController as app")
+		h1 Número de Meetups cadastrados {{app.meetups.length}}
+		ul
+			li(ng-repeat="meet in app.meetups")
+				|{{meet.name}}
+
+		input.form-control(type="text" ng-model="app.meetups.name")
+		button.btn.btn-success.btn(ng-click="app.save()") Adicionar
